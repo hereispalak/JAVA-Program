@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.Scanner;
+public class TofeeAray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		System.out.println("size of the array");
+		int n = sc.nextInt();
+        int[] arr= new int[n];
+             for(int i=0; i<n; i++)
+     {
+	System.out.println("give me"+i+"th element ");
+	arr[i]=sc.nextInt();
+     }
+		System.out.println("Enter the value of x ");
+		int x= sc.nextInt();
+		int temp=0;
+		  
+		for(int i=0; i<n; i++)
+			{
+			if(arr[i]<=x) {
+			   temp++;
+			}	
+			}
+		System.out.println("Value is"+temp);
+
+	}
+
+}
