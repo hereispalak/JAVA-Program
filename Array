@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Arrayrep {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("size of the array");
+		int n = sc.nextInt();
+int[] arr= new int[n];
+//arr[0]=5;
+//arr[1]=50;
+//arr[2]=55;
+//arr[3]=54;w
+//arr[4]=56;
+for(int i=0; i<n; i++)
+{
+	System.out.println("give me"+i+"th element ");// value take by user
+	arr[i]=sc.nextInt();
+}
+int sum=0;
+for(int i=0; i<n;i++)
+{
+	sum=sum+arr[i];
+}
+System.out.println("sum of all element is:"+sum);//sum of array
+for(int i=0; i<arr.length; i++)// represent the all array value
+System.out.println(arr[i]+" ");
+
+	}
+
+}
