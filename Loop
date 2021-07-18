@@ -1,0 +1,33 @@
+// sum of all natural number
+import java.util.*;
+public class Loop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter A number");
+        Scanner sc= new Scanner(System.in);
+        int n=sc.nextInt();
+     
+       int i=1;
+        int sum=0;
+        while(i<=n)
+        {
+        	sum=sum+i;
+        //	System.out.println(sum);
+        	i=i+1;
+        }
+        System.out.println(sum);
+	}
+
+}
+//print the counting
+//public class Loop {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//           int i;
+//           for(i=1; i<100; i++)
+//        	   System.out.println(""+i);
+//	}
+//
+//}
