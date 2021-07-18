@@ -1,0 +1,31 @@
+
+public class StringEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name=" KM Palak Singhal";
+		name= name+ "Aggarwal";
+		String anothername= new String("Palak Singhal");
+		System.out.println(anothername);
+		System.out.println(name);
+		System.out.println(name.charAt(4));
+		System.out.println(name.length());
+		System.out.println(name.substring(6,12));
+		System.out.println(name.contains("KM Palak Singhal"));
+		System.out.println(name.contains("Palak"));
+		System.out.println(name.contains("Aman"));
+		System.out.println(name.equals(anothername));
+		System.out.println(name.isEmpty());
+		System.out.println(name.concat("Gupta"));
+		System.out.println(name.replace('p' ,'s'));
+		String cars="maruti, hyndai,swift,ferrari,laborghini";
+		String allCars[]=cars.split("a");
+		for(String car: allCars) {
+		System.out.println(car);
+		System.out.println(cars.indexOf('M'));
+		System.out.println(name.toLowerCase());
+		System.out.println(name.toUpperCase());
+		System.out.println(name+"   "+name.trim());
+	}
+		}
+       }
