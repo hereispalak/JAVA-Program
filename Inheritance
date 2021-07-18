@@ -1,0 +1,52 @@
+class one {
+    int a = 10;
+
+    void display1() {
+        System.out.println("Displayed by super class ==> " + a);
+    }
+}
+
+class two extends one {
+    void display2() {
+        System.out.println("Displayed by SUB class ==> " + a);
+    }
+}
+
+public class Inheritance {
+    public static void main(String args[]) {
+        two t1 = new two();
+        t1.display1();
+        t1.display2();
+    }
+}
+
+
+
+
+
+package Class;
+ class A
+ {
+	 String msg="Hello i am in A class";
+	 void getMsg()
+	 {
+		 System.out.println(msg);
+	 }
+ }
+ class B extends A
+ {
+	 void getBMsg()
+	 {
+		 System.out.println("Palak singhal");
+	 }
+ }
+public class InheritanceEx {
+	public static void main(String[] args) {
+		B b1=new B();
+		//b1.msg="plak singhal";// if we want to change class A msg
+		b1.getMsg();
+		b1.getBMsg();
+		
+	}
+
+}
