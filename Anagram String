@@ -1,0 +1,26 @@
+package DataStructure;
+// Check in 2 string have same number of elements.
+public class AnagramStringCheck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(anagram("aabbaa","babaaa"));
+
+	}
+        public static boolean anagram(String x1,String x2) {
+        	int[] arr1= new int[26];
+        	int[] arr2= new int[26];
+        	for(int i=0; i<x1.length(); i++) {
+        		arr1[x1.charAt(i)-97]+=1;
+        	}
+        	for(int i=0; i<x2.length(); i++) {
+        		arr2[x2.charAt(i)-97]+=1;
+        	}
+        	for(int i=0; i<26; i++) {
+        		if(arr1[i]!=arr2[i]) {
+        		return false;	
+        		}
+        	}
+        return true;
+}
+}
