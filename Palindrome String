@@ -1,0 +1,30 @@
+package DataStructure;
+
+public class StringEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//        String name= new String("Palak Singhal");
+//        String x1="Aggarwal";
+//       System.out.println(x1.length());
+//        System.out.println(x1.substring(2,5));
+//        System.out.println(x1.charAt(4));
+		
+		System.out.println(palin("plak"));
+		
+	}  
+        // Palindrome number when start and reverse word is same = NAMAN
+	    public static boolean palin( String x ) {
+	    	int start=0;
+	    	int end=x.length()-1;
+	    	while(start<end) {
+	    		if(x.charAt(start)!=x.charAt(end)) {
+	    			return false;
+	    		}
+	    		start++;
+	    		end--;
+	    	 
+	     }
+	    	return true;
+	}
+}
