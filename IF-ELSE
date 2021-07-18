@@ -1,0 +1,77 @@
+
+public class Ifelse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     /*  int a=29;
+       if(a>18)
+    	  System.out.println("you can drive");
+       else
+    	   System.out.println("you can not drive");*/
+      /* boolean a=false;
+       boolean b=false;
+       if(a&&b)
+    	  System.out.println("y");  //And Operator
+       else
+
+     	  System.out.println("N");*/
+      /* boolean a=false;
+       boolean b=false;
+       if(a||b)
+    	  System.out.println("y");  // Or operator
+       else
+
+     	  System.out.println("N");*/
+ boolean a=true;
+	       boolean b=false;
+	    	 // System.out.println("not(a) is");  // NOT operator
+	    	  System.out.println(!a);
+
+	//System.out.println("not(b) is"); 
+	     	  System.out.println(!b); 
+	}
+}
+// Even odd
+//import java.util.Scanner;
+//public class Ifelse {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//   //  int a;
+//   Scanner num=new Scanner(System.in);
+//     System.out.println("enter a number=>");
+//    int a=num.nextInt();
+//   boolean x=(a%2==0);
+//		   if(a%2==0) {
+//     //if(a%2==0)
+//    	 System.out.println("num is even");
+//		   }
+//     else
+//    	 System.out.println("num is odd");
+//	}
+// 
+//}
+//// Greatest number
+//import java.util.Scanner;
+//public class IfElse{
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		int a,b,c;
+//		Scanner num=new Scanner(System.in);
+//		System.out.println("Enter the value of a=>");
+//		a=num.nextInt();
+//		System.out.println("Enter the value of b=>");
+//		b=num.nextInt();
+//		System.out.println("Enter the value of c=>");
+//		c=num.nextInt();
+//		if(a>b && b>c)
+//			System.out.println("A is greater than B and C"+a);
+//		if(b>a && b>c)
+//		System.out.println("B is greater tha A and C"+b);
+//		if(c>a && c>b)
+//		System.out.println("C is greater than B and C"+c);
+//
+//	}
+//
+//}
