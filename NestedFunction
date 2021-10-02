@@ -1,0 +1,27 @@
+package DataStructure;
+
+import java.util.Scanner;
+
+public class NestedFunction {
+	public static void main(String[] args) {
+//		Scanner s = new Scanner(System.in);
+//		in
+		first(10);
+ }
+	public static void first(int x) {
+		System.out.println(x);
+		second(20);
+	}
+	
+	public static void second(int x) {
+		third(30);
+		System.out.println(x);
+	}
+	
+	public static void third(int x) {
+		System.out.println(x);
+	}
+
+	
+	
+}
