@@ -1,0 +1,20 @@
+package DataStructure;
+
+import java.util.Scanner;
+
+public class FunctionClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner s = new Scanner(System.in);
+      int n = s.nextInt();
+     n= decrement(n);
+      System.out.println(n);
+	}
+	
+	public static int decrement(int x) {
+		x--;
+		return x;
+	}
+
+}
